@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 100px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #ddd;
+  z-index: 1000;
+  background-color: #f8f9fa;
+}
+
+.flex-grow-1 {
+  margin-left: 100px;
+  padding: 20px;
+}
+
+.img-hover img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-hover:hover img {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.logo-panel {
+  width: 260px;
+  background: #fff;
+  border-left: 1px solid #ccc;
+  box-shadow: -2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.clickable {
+  cursor: pointer;
+}
+.masonry-grid {
+  column-count: 5;
+  column-gap: 1rem;
+  padding: 0 1rem;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+.position-relative:hover .hover-show {
+  display: block !important;
+}
