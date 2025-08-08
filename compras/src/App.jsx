@@ -11,7 +11,19 @@ export default function App() {
       {/* Navbar responsive */}
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container">
-          <a className="navbar-brand fw-bold" href="#">My Shop</a>
+        <a className="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+          <img
+            src="/src/assets/logo.jpg"
+            alt="Logo"
+            width="40"
+            height="40"
+            className="d-inline-block align-text-top"
+          />
+    <span style={{ fontSize: "1.5rem" }}>
+    <span style={{ color: "deeppink" }}>ONLINE</span>{" "}
+    <span style={{ color: "navy" }}>SHOP</span>
+  </span>
+        </a>
 
           <button
             className="navbar-toggler"
@@ -91,8 +103,8 @@ export default function App() {
         <span className="position-relative d-inline-flex align-items-center justify-content-center w-100 h-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="28"
-            height="28"
+            width="60"
+            height="40"
             viewBox="0 0 16 16"
             fill="currentColor"
             aria-hidden="true"
@@ -112,7 +124,7 @@ export default function App() {
       {/* Footer */}
       <footer className="py-4 mt-auto border-top">
         <div className="container">
-          <p className="mb-0 text-center text-muted">© {new Date().getFullYear()} My Shop</p>
+          <p className="mb-0 text-center text-muted">© {new Date().getFullYear()} ONLINE STORE</p>
         </div>
       </footer>
     </>
